@@ -1,0 +1,33 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Mobile phone",
+            "createdAt" : 1616346753759,
+            "updatedAt" : 1616346753759
+        }
+    ],
+
+    "products": [
+        {
+            "id": 1,
+            "name": "Iphone 1",
+            "createdAt" : 1616346753759,
+            "updatedAt" : 1616346753759,
+            "categoryId" : 1,
+            "salePrice" : 15000000
+        },
+        {
+            "id": 2,
+            "name": "Iphone 2",
+            "createdAt" : 1616346753759,
+            "updatedAt" : 1616346753759,
+            "categoryId" : 1,
+            "salePrice" : 15000000
+        }
+    ],
+
+    "profile": {
+        "name": "Po"
+    }
+}
