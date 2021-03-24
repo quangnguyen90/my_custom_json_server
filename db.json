@@ -1,33 +1,43 @@
 {
-    "categories": [
-        {
-            "id": 1,
-            "name": "Mobile phone",
-            "createdAt" : 1616346753759,
-            "updatedAt" : 1616346753759
-        }
-    ],
-
-    "products": [
-        {
-            "id": 1,
-            "name": "Iphone 1",
-            "createdAt" : 1616346753759,
-            "updatedAt" : 1616346753759,
-            "categoryId" : 1,
-            "salePrice" : 15000000
-        },
-        {
-            "id": 2,
-            "name": "Iphone 2",
-            "createdAt" : 1616346753759,
-            "updatedAt" : 1616346753759,
-            "categoryId" : 1,
-            "salePrice" : 15000000
-        }
-    ],
-
-    "profile": {
-        "name": "Po"
+  "categories": [
+    {
+      "id": 1,
+      "name": "Mobile phone",
+      "createdAt": 1616346753759,
+      "updatedAt": 1616346753759
+    },
+    {
+      "name": "Iphone X",
+      "createdAt": 1616601944856,
+      "updatedAt": 1616601944856,
+      "id": 2
+    },
+    {
+      "name": "Iphone 13",
+      "createdAt": 1616602133317,
+      "updatedAt": 1616602133317,
+      "id": 3
     }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Iphone 1",
+      "createdAt": 1616346753759,
+      "updatedAt": 1616346753759,
+      "categoryId": 1,
+      "salePrice": 15000000
+    },
+    {
+      "id": 2,
+      "name": "Iphone 2",
+      "createdAt": 1616346753759,
+      "updatedAt": 1616346753759,
+      "categoryId": 1,
+      "salePrice": 15000000
+    }
+  ],
+  "profile": {
+    "name": "Po"
+  }
 }
