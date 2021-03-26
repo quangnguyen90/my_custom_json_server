@@ -1,43 +1,27 @@
 {
-  "categories": [
-    {
-      "id": 1,
-      "name": "Mobile phone",
-      "createdAt": 1616346753759,
-      "updatedAt": 1616346753759
-    },
-    {
-      "name": "Iphone X",
-      "createdAt": 1616601944856,
-      "updatedAt": 1616601944856,
-      "id": 2
-    },
-    {
-      "name": "Iphone 13",
-      "createdAt": 1616602133317,
-      "updatedAt": 1616602133317,
-      "id": 3
-    }
-  ],
-  "products": [
-    {
-      "id": 1,
-      "name": "Iphone 1",
-      "createdAt": 1616346753759,
-      "updatedAt": 1616346753759,
-      "categoryId": 1,
-      "salePrice": 15000000
-    },
-    {
-      "id": 2,
-      "name": "Iphone 2",
-      "createdAt": 1616346753759,
-      "updatedAt": 1616346753759,
-      "categoryId": 1,
-      "salePrice": 15000000
-    }
-  ],
-  "profile": {
-    "name": "Po"
-  }
+	"categories": [{
+		"id": "4c2d8dee-af66-4464-8ffa-b0d563798a09",
+		"name": "Jewelery",
+		"createdAt": 1616739088579,
+		"updatedAt": 1616739088579
+	}, {
+		"id": "33e13563-87e2-4b18-ba72-ca4c66427eb6",
+		"name": "Sports",
+		"createdAt": 1616739088579,
+		"updatedAt": 1616739088579
+	}, {
+		"id": "b93b2cff-5e0c-412d-ba26-3971ad0e3a4d",
+		"name": "Grocery",
+		"createdAt": 1616739088580,
+		"updatedAt": 1616739088580
+	}, {
+		"id": "c046a48a-3a89-46fa-baf9-560ea0d619db",
+		"name": "Tools",
+		"createdAt": 1616739088580,
+		"updatedAt": 1616739088580
+	}],
+	"products": [],
+	"profile": {
+		"name": "Po"
+	}
 }
