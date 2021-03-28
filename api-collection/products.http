@@ -1,0 +1,44 @@
+# Products
+@baseUrl=http://localhost:3000/api
+@resourceName=products
+
+# @name getAll
+GET {{baseUrl}}/{{resourceName}}
+
+###
+# @name filterProducts
+GET {{baseUrl}}/{{resourceName}}?color=maroon&price_gte=200
+
+###
+# @name filterProductsLike
+GET {{baseUrl}}/{{resourceName}}?name_like=tasty
+
+###
+# @name pagination
+GET {{baseUrl}}/{{resourceName}}?_page=1&_limit=2
+
+###
+# @name sort
+GET {{baseUrl}}/{{resourceName}}?_sort=price&_order=asc
+
+###
+# @name addNew
+POST {{baseUrl}}/{{resourceName}}
+Content-Type: application/json
+
+{
+    "name": "Iphone X2"
+}
+
+###
+# @name update
+PATCH {{baseUrl}}/{{resourceName}}/3
+Content-Type: application/json
+
+{
+    "name": "Iphone 13"
+}
+
+###
+# @name delete
+DELETE {{baseUrl}}/{{resourceName}}/2
