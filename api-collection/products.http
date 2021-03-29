@@ -27,16 +27,24 @@ POST {{baseUrl}}/{{resourceName}}
 Content-Type: application/json
 
 {
-    "name": "Iphone X2"
+    "categoryId": "757df16a-96c9-40e8-87af-f8bc4bab2e2d",
+    "name": "Test",
+    "color": "Red",
+    "price": 666,
+    "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+    "thumbnailUrl": "http://placeimg.com/400/400"
 }
 
 ###
 # @name update
-PATCH {{baseUrl}}/{{resourceName}}/3
+PATCH {{baseUrl}}/{{resourceName}}/IjrIDTV
 Content-Type: application/json
 
 {
-    "name": "Iphone 13"
+    "categoryId": "757df16a-96c9-40e8-87af-f8bc4bab2e2d",
+    "name": "Test",
+    "color": "Red",
+    "price": 999,
 }
 
 ###
